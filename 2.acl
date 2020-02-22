@@ -1,6 +1,6 @@
 ﻿﻿#**********************************************************************
-# 02.21
-# 2020年02月21日 00时41分17秒
+# 02.22
+# 2020年02月22日 16时21分48秒
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -960,6 +960,7 @@
 (^|\.)fraudmetrix.cn
 (^|\.)fraudmetrix\.cn$
 (^|\.)gentags\.net$
+(^|\.)gepush\.com$
 (^|\.)getui\.com$
 (^|\.)glispa\.com$
 (^|\.)go-mpulse$
@@ -1547,6 +1548,7 @@
 (^|\.)aliapp\.org$
 (^|\.)alibaba\.com$
 (^|\.)alibabacloud\.com$
+(^|\.)alibabausercontent\.com$
 (^|\.)alicdn\.com$
 (^|\.)aliexpress\.com$
 (^|\.)aliimg\.com$
@@ -1621,6 +1623,7 @@
 (^|\.)bcebos\.com$
 (^|\.)bdimg\.com$
 (^|\.)bdstatic\.com$
+(^|\.)bdurl\.net$
 (^|\.)hao123\.com$
 (^|\.)hao123img\.com$
 (^|\.)jomodns\.com$
@@ -8587,6 +8590,7 @@
 (^|\.)asianclub\.tv$
 (^|\.)plurk\.com$
 (^|\.)waze\.com$
+(^|\.)deyun123\.xyz$
 
 
 # Kancolle
@@ -8687,10 +8691,6 @@
 (^|\.)flickr\.com$
 (^|\.)flipboard\.com$
 (^|\.)gfx\.ms$
-(^|\.)github\.com$
-(^|\.)github\.io$
-(^|\.)githubassets\.com$
-(^|\.)githubusercontent\.com$
 (^|\.)gameloft\.com$
 (^|\.)gongm\.in$
 (^|\.)gstatic\.cn$
@@ -8787,16 +8787,23 @@
 (^|\.)discordapp\.com$
 (^|\.)discordapp\.net$
 
+# Github
+(^|\.)github\.com$
+(^|\.)github\.io$
+(^|\.)githubapp\.com$
+(^|\.)githubassets\.com$
+(^|\.)githubusercontent\.com$
+
 # Epicgames
 (^|\.)\w*epicgames\w*\.\w*$
 (^|\.)helpshift\.com$
 
 # Google
+(^|\.)1e100\.net$
+(^|\.)app-measurement\.net$
 (^|\.)google\.cn$
 (^|\.)googleapis\.cn$
 (^|\.)googleapis\.com$
-(^|\.)1e100\.net
-(^|\.)app-measurement\.net
 
 # Hulu
 (^|\.)hulu\.com$
