@@ -79,6 +79,7 @@ var proxy_host=[
 "imgur.com",
 "github.com",
 "github.io",
+"unpkg.com",
 "githubassets.com",
 "githubusercontent.com",
 "facebook.com",
@@ -214,6 +215,7 @@ var proxy_host=[
 "s3.amazonaws.com",
 "s3.ap-southeast-1.amazonaws.com",
 "s3.ap-southeast-2.amazonaws.com",
+"s3-ap-northeast-1.amazonaws.com",
 "freefq.com",
 "ptt.cc",
 "wp.com",
@@ -505,6 +507,7 @@ var proxy_host=[
 "zd.tianshi.info",
 "t.tianshi2.net",
 "9moe.com",
+"2dkf.com",
 "apps.apple.com",
 "kknews.cc",
 "7mmtv.tv",
@@ -553,13 +556,24 @@ var proxy_host=[
 "animewld.club",
 "vndb.org",
 "dxomark.com",
+"deyun123.xyz",
+"deyun88.xyz",
+"ninetail.tk",
+"mikocon.com",
+"ikfol.com",
+"atwiki.jp",
+"winudf.com",
+"qoo-app.com",
+"qoo-static.com",
+"netlify.com",
+"shiropro-re.net",
 
 ];
 function FindProxyForURL(url, host) {
   for (var i = 0; i < proxy_host.length; i++) {
     var ph = proxy_host[i];
     if (ph === host || new RegExp("\\." + ph + "$").test(host)) {
-      return "SOCKS5 127.0.0.1:10808";
+      return "SOCKS5 127.0.0.1:1085";
     }
   }
   return "DIRECT";

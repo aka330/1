@@ -1,6 +1,6 @@
 ﻿﻿#**********************************************************************
-# 02.22
-# 2020年02月22日 16时21分48秒
+# 03.15
+# 2020年03月15日 22时44分09秒
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -14,9 +14,9 @@
 # 参数解释：
 # [proxy_all] 默认代理-本规则使用
 # [bypass_all] 默认直连
-# [outbound_block_list] 禁止访问列表 在25行
-# [bypass_list] 直连列表 在1207多行
-# [proxy_list] 代理列表 在6874多行
+# [outbound_block_list] 禁止访问列表
+# [bypass_list] 直连列表
+# [proxy_list] 代理列表
 # [remote_dns] 远程 DNS 解析 -不加使用本地 DNS
 #**********************************************************************
 
@@ -175,7 +175,6 @@
 (^|\.)api\.cpu\.baidu\.com$
 (^|\.)api\.mobula\.sdk\.duapps\.com$
 (^|\.)ashifen\.com$
-(^|\.)b\.bdstatic\.com$
 (^|\.)baichuan\.baidu\.com$
 (^|\.)baidu9635\.com$
 (^|\.)baidustatic\.com$
@@ -183,7 +182,6 @@
 (^|\.)baikebcs\.bdimg\.com$
 (^|\.)banlv\.baidu\.com$
 (^|\.)bar\.baidu\.com$
-(^|\.)bce\.baidu\.com$
 (^|\.)bdimg\.share\.baidu\.com$
 (^|\.)bdplus\.baidu\.com$
 (^|\.)btlaunch\.baidu\.com$
@@ -225,7 +223,6 @@
 (^|\.)gimg\.baidu\.com$
 (^|\.)guanjia\.baidu\.com$
 (^|\.)idm-su\.baidu\.com$
-(^|\.)idm\.bce\.baidu\.com$
 (^|\.)iebar\.baidu\.com$
 (^|\.)ikcode\.baidu\.com$
 (^|\.)img01\.taotaosou\.cn$
@@ -586,7 +583,6 @@
 (^|\.)cupid\.iqiyi\.com$
 (^|\.)emoticon\.sns\.iqiyi\.com$
 (^|\.)gamecenter\.iqiyi\.com$
-(^|\.)hotchat-im\.iqiyi\.com$
 (^|\.)ifacelog\.iqiyi\.com$
 (^|\.)mbdlog\.iqiyi\.com$
 (^|\.)meta\.video\.qiyi\.com$
@@ -1662,9 +1658,15 @@
 # Douyu 斗鱼
 (^|\.)douyu\.com$
 (^|\.)douyu\.tv$
+(^|\.)douyuscdn\.com$
 (^|\.)douyucdn\.cn$
 (^|\.)douyutv\.com$
 
+# Epic
+(^|\.)epicgames\.com$
+(^|\.)helpshift\.com$
+(^|\.)paragon\.com$
+(^|\.)unrealengine\.com$
 # Huawei
 (^|\.)dbankcdn\.com$
 (^|\.)hc-cdn\.com$
@@ -1940,7 +1942,6 @@
 (^|\.)qingting\.fm$
 (^|\.)linroid\.com$
 (^|\.)lanzous\.com$
-(^|\.)baidupan\.com$
 (^|\.)dmhw1688\.com$
 (^|\.)kugou\.com$
 (^|\.)kuwo\.cn$
@@ -1953,7 +1954,6 @@
 (^|\.)lianwifi\.com$
 (^|\.)huawei\.com$
 (^|\.)acggate\.net$
-(^|\.)segmentfault\.com$
 (^|\.)kepuchina\.cn$
 (^|\.)jikipedia\.com$
 (^|\.)saraba1st\.com$
@@ -1977,7 +1977,7 @@
 (^|\.)chaipip\.com$
 (^|\.)hrtsea\.com$
 (^|\.)laomo\.me$
-(^|\.)mpyit\.com$
+(^|\.)dxy\.cn$
 
 # Accelerate direct sites
 (^|\.)12306\.com$
@@ -2048,7 +2048,6 @@
 (^|\.)fantasy\.tv$
 (^|\.)feng\.com$
 (^|\.)fir\.im$
-(^|\.)firefox\.com$
 (^|\.)frdic\.com$
 (^|\.)fresh-ideas\.cc$
 (^|\.)ganji\.com$
@@ -2110,13 +2109,13 @@
 (^|\.)mobike\.com$
 (^|\.)moji\.com$
 (^|\.)moke\.com$
-(^|\.)mozilla\.org$
 (^|\.)mubu\.com$
 (^|\.)myunlu\.com$
 (^|\.)meilishuo\.com$
 (^|\.)meituan\.com$
 (^|\.)meituan\.net$
 (^|\.)nuomi\.com$
+(^|\.)onedns\.net$
 (^|\.)ourdvs\.com$
 (^|\.)overcast\.fm$
 (^|\.)oschina\.net$
@@ -2549,11 +2548,12 @@
 1.192.0.0/13
 1.202.0.0/15
 1.204.0.0/14
+2.20.54.23/32
 8.128.0.0/10
 8.209.36.0/22
 8.209.40.0/21
 8.209.48.0/20
-8.209.128.0/17
+8.209.192.0/18
 8.210.0.0/15
 8.212.0.0/14
 8.216.0.0/13
@@ -2576,6 +2576,7 @@
 14.196.0.0/15
 14.204.0.0/15
 14.208.0.0/12
+20.81.0.0/24
 20.134.160.0/20
 20.139.160.0/20
 20.249.255.0/24
@@ -3417,7 +3418,6 @@
 61.236.0.0/15
 61.240.0.0/14
 62.234.0.0/16
-64.85.27.0/24
 68.79.0.0/18
 69.230.192.0/18
 69.231.128.0/18
@@ -3430,8 +3430,11 @@
 72.163.240.0/23
 72.163.248.0/22
 81.68.0.0/14
+81.161.63.0/24
 82.156.0.0/15
 87.254.207.0/24
+91.223.53.0/24
+91.239.190.0/24
 93.183.14.0/24
 93.183.18.0/24
 94.191.0.0/17
@@ -4401,7 +4404,8 @@
 103.114.68.0/22
 103.114.100.0/22
 103.114.148.0/22
-103.114.156.0/22
+103.114.156.0/23
+103.114.159.0/24
 103.114.212.0/22
 103.114.236.0/22
 103.114.240.0/22
@@ -4434,7 +4438,7 @@
 103.119.156.0/22
 103.119.180.0/22
 103.119.200.0/22
-103.119.226.0/23
+103.119.224.0/22
 103.120.52.0/22
 103.120.72.0/22
 103.120.76.0/24
@@ -4530,7 +4534,6 @@
 103.139.212.0/23
 103.140.14.0/23
 103.140.46.0/23
-103.140.70.0/23
 103.140.140.0/23
 103.140.144.0/23
 103.140.192.0/23
@@ -4561,7 +4564,6 @@
 103.143.132.0/22
 103.143.174.0/23
 103.143.228.0/23
-103.144.40.0/23
 103.144.66.0/23
 103.144.70.0/23
 103.144.72.0/23
@@ -4570,7 +4572,6 @@
 103.145.40.0/22
 103.145.73.0/24
 103.145.80.0/23
-103.145.86.0/23
 103.145.90.0/23
 103.145.92.0/22
 103.145.98.0/23
@@ -4578,14 +4579,15 @@
 103.145.188.0/23
 103.146.6.0/23
 103.146.72.0/23
-103.146.88.0/22
+103.146.90.0/23
 103.146.126.0/23
 103.146.138.0/23
-103.146.230.0/23
 103.146.236.0/23
 103.146.252.0/23
-103.147.12.0/23
 103.147.124.0/23
+103.147.198.0/23
+103.147.206.0/23
+103.148.174.0/23
 103.192.0.0/19
 103.192.48.0/21
 103.192.56.0/22
@@ -5395,7 +5397,21 @@
 115.148.0.0/14
 115.152.0.0/13
 115.166.64.0/19
-115.168.0.0/13
+115.168.0.0/16
+115.169.0.0/23
+115.169.3.0/24
+115.169.6.0/24
+115.169.9.0/24
+115.169.14.0/23
+115.169.16.0/20
+115.169.39.0/24
+115.169.42.0/23
+115.169.44.0/22
+115.169.48.0/20
+115.169.64.0/18
+115.169.128.0/17
+115.170.0.0/15
+115.172.0.0/14
 115.180.0.0/14
 115.187.0.0/20
 115.190.0.0/15
@@ -5977,7 +5993,7 @@
 124.68.244.0/23
 124.68.254.0/23
 124.69.0.0/16
-124.70.0.0/22
+124.70.0.0/15
 124.72.0.0/13
 124.88.0.0/13
 124.108.8.0/21
@@ -6052,6 +6068,7 @@
 129.211.0.0/16
 129.223.254.0/24
 129.227.99.0/24
+130.36.146.0/23
 130.214.218.0/23
 131.228.96.0/24
 131.253.12.0/29
@@ -6076,6 +6093,7 @@
 139.5.244.0/22
 139.9.0.0/16
 139.129.0.0/16
+139.138.238.0/28
 139.148.0.0/16
 139.155.0.0/16
 139.159.0.0/19
@@ -6218,8 +6236,6 @@
 150.242.248.0/22
 150.255.0.0/16
 152.32.178.0/23
-152.32.249.0/24
-152.32.255.0/24
 152.104.128.0/17
 152.136.0.0/16
 153.0.0.0/16
@@ -6331,6 +6347,7 @@
 171.104.0.0/13
 171.112.0.0/12
 171.208.0.0/12
+172.60.2.0/24
 172.81.192.0/18
 173.39.200.0/23
 175.0.0.0/12
@@ -6479,7 +6496,6 @@
 183.192.0.0/10
 185.109.236.0/24
 185.216.118.0/24
-185.224.116.0/22
 188.131.128.0/17
 192.11.23.0/24
 192.11.26.0/24
@@ -6503,6 +6519,7 @@
 192.144.128.0/17
 192.163.11.0/24
 192.232.97.0/24
+193.9.22.0/24
 193.17.120.0/22
 193.20.64.0/22
 193.112.0.0/16
@@ -6634,7 +6651,6 @@
 202.27.12.0/24
 202.27.14.0/24
 202.27.136.0/23
-202.30.124.0/24
 202.36.226.0/24
 202.38.0.0/22
 202.38.8.0/21
@@ -7178,7 +7194,8 @@
 203.15.156.0/22
 203.15.174.0/24
 203.15.227.0/24
-203.15.232.0/21
+203.15.232.0/22
+203.15.238.0/23
 203.15.240.0/23
 203.15.246.0/24
 203.16.10.0/24
@@ -7279,7 +7296,6 @@
 203.20.122.0/24
 203.20.126.0/23
 203.20.135.0/24
-203.20.138.0/23
 203.20.140.0/22
 203.20.150.0/24
 203.20.230.0/24
@@ -8153,8 +8169,8 @@
 220.242.173.0/24
 220.242.197.0/24
 220.242.205.0/24
-220.242.206.0/23
-220.242.214.0/23
+220.242.207.0/24
+220.242.215.0/24
 220.242.216.0/21
 220.242.224.0/19
 220.243.0.0/17
@@ -8293,39 +8309,31 @@
 ^.*\.online$
 
 # MyList
-(^|\.)apkmirror\.com$
 (^|\.)aptoide\.com$
 (^|\.)bit\.no\.com$
 (^|\.)btlibrary\.me$
 (^|\.)cccat\.cc$
 (^|\.)cloudcone\.com$
-(^|\.)cloudfront\.net$
 (^|\.)dmm\.com$
 (^|\.)dmm\.co\.jp$
 (^|\.)dmhy\.org$
 (^|\.)ip138\.com$
 (^|\.)ping\.pe$
-(^|\.)quora\.com$
-(^|\.)s3\.amazonaws\.com$
 (^|\.)teddysun\.com$
+(^|\.)textnow\.com$
 (^|\.)tumbex\.com$
 (^|\.)twdvd\.com$
 (^|\.)unsplash\.com$
 (^|\.)xn--i2ru8q2qg\.com$
-(^|\.)googleapps\.com$
-(^|\.)googleartproject\.com$
-(^|\.)googledrive\.com$
-(^|\.)googlecode\.com$
-(^|\.)googleusercontent\.com$
-(^|\.)gvt\w\.com$
+(^|\.)ec2-54-210-142-85\.computer-1\.amazonaws\.com$
+(^|\.)ec2-54-174-24-124\.computer-1\.amazonaws\.com$
+(^|\.)ec2-54-174-178-70\.computer-1\.amazonaws\.com$
+(^|\.)ec2-54-175-2-194\.computer-1\.amazonaws\.com$
+(^|\.)ec2-54-210-54-246\.computer-1\.amazonaws\.com$
 (^|\.)inoreader\.com$
-(^|\.)xn--p8j9a0d9c9a\.xn--q9jyb4c$
-(^|\.)xn--ngstr-lra8j\.com$
 (^|\.)nyaa\.si$
 (^|\.)imgur\.com$
 (^|\.)gyazo\.com$
-(^|\.)goo\.gl$
-(^|\.)t\.co$
 (^|\.)wnacg\.com$
 (^|\.)wnacg\.net$
 (^|\.)wnacg\.download$
@@ -8351,7 +8359,6 @@
 (^|\.)heroku\.com$
 (^|\.)herokucdn\.com$
 (^|\.)herokuapp\.com$
-(^|\.)ggpht\.com$
 (^|\.)pureapk\.com$
 (^|\.)winudf\.com$
 (^|\.)cp\.wyk\.la$
@@ -8410,7 +8417,6 @@
 (^|\.)ehgt\.org$
 (^|\.)e-hentai\.org$
 (^|\.)\w*keystamp\w*\.\w*$
-(^|\.)dugrqaqinbtcq\.cloudfront\.net$
 (^|\.)web\.flower-knight-girls\.co\.jp$
 (^|\.)nhentai\.net$
 (^|\.)chrome\.com$
@@ -8448,6 +8454,7 @@
 (^|\.)office365\.com$
 (^|\.)qoo-static\.com$
 (^|\.)qoo-app\.com$
+(^|\.)qoo-static\.com$
 (^|\.)eyny\.com$
 (^|\.)avbebe\.com$
 (^|\.)avgigi\.com$
@@ -8555,10 +8562,17 @@
 (^|\.)highspec\.ru$
 (^|\.)userstyles\.org$
 (^|\.)niconewbeee\.tk$
+(^|\.)ascii2d\.net$
+(^|\.)tineye\.com$
+(^|\.)trace\.moe$
+(^|\.)animetracer\.com$
+(^|\.)atwiki\.jp$
+(^|\.)services\.googleapis\.cn$
 
 # 临时
 (^|\.)suannai\.me$
 (^|\.)ji-x\.pw$
+(^|\.)ji-bc\.pw$
 (^|\.)dukousubscribe\.club$
 (^|\.)wangzicloud\.com$
 (^|\.)ottosub\.xyz$
@@ -8591,7 +8605,11 @@
 (^|\.)plurk\.com$
 (^|\.)waze\.com$
 (^|\.)deyun123\.xyz$
+(^|\.)deyunbot123\.xyz$
+(^|\.)coolgay\.buzz$
 
+# lucky patcher
+95.183.10.176/32
 
 # Kancolle
 203.104.209.7/32
@@ -8629,6 +8647,7 @@
 (^|\.)\w*github\w*\.\w*$
 (^|\.)\w*gmail\w*\.\w*$
 (^|\.)\w*google\w*\.\w*$
+(^|\.)\w*instagram\w*\.\w*$
 (^|\.)\w*porn\w*\.\w*$
 (^|\.)\w*sci-hub\w*\.\w*$
 (^|\.)\w*spotify\w*\.\w*$
@@ -8644,6 +8663,8 @@
 (^|\.)adobedtm\.com$
 (^|\.)ampproject\.org$
 (^|\.)aolcdn\.com$
+(^|\.)apkmirror\.com$
+(^|\.)apkpure\.com$
 (^|\.)app-measurement\.com$
 (^|\.)appspot\.com$
 (^|\.)android\.com$
@@ -8667,9 +8688,9 @@
 (^|\.)box\.com$
 (^|\.)cachefly\.net$
 (^|\.)cdnst\.net$
+(^|\.)cloudfront\.net$
 (^|\.)comodoca\.com$
 (^|\.)content\.office\.net$
-(^|\.)d3c33hcgiwev3\.cloudfront\.net$
 (^|\.)demdex\.net$
 (^|\.)deskconnect\.com$
 (^|\.)dropbox\.com$
@@ -8682,22 +8703,14 @@
 (^|\.)edgesuite\.net$
 (^|\.)eu-west-1\.console\.aws\.amazon\.com$
 (^|\.)eurekavpt\.com$
-(^|\.)facebook\.com$
 (^|\.)fastmail\.com$
-(^|\.)fb\.com$
-(^|\.)fb\.me$
-(^|\.)fbcdn\.net$
 (^|\.)firebaseio\.com$
 (^|\.)flickr\.com$
 (^|\.)flipboard\.com$
 (^|\.)gfx\.ms$
 (^|\.)gameloft\.com$
 (^|\.)gongm\.in$
-(^|\.)gstatic\.cn$
-(^|\.)gstatic\.com$
-(^|\.)gvt0\.com$
-(^|\.)gvt1\.com$
-(^|\.)gvt2\.com$
+(^|\.)hulu\.com$
 (^|\.)id\.heroku\.com$
 (^|\.)io\.io$
 (^|\.)issuu\.com$
@@ -8719,22 +8732,15 @@
 (^|\.)nintendo\.net$
 (^|\.)nsstatic\.net$
 (^|\.)nytstyle\.com$
-(^|\.)onedrive\.live\.com$
 (^|\.)openvpn\.net$
 (^|\.)periscope\.tv$
 (^|\.)pinimg\.com$
 (^|\.)pinterest\.com$
-(^|\.)pixiv\.net$
-(^|\.)pixiv\.help$
-(^|\.)pximg\.net$
-(^|\.)pixivision\.net$
-(^|\.)pixiv\.cat$
+(^|\.)potato\.im$
 (^|\.)prfct\.co$
+(^|\.)pscp\.tv$
+(^|\.)quora\.com$
 (^|\.)resilio\.com$
-(^|\.)s3-ap-northeast-1\.amazonaws\.com$
-(^|\.)s3-ap-southeast-2\.amazonaws\.com$
-(^|\.)s3\.ap-southeast-1\.amazonaws\.com$
-(^|\.)s3\.ap-southeast-2\.amazonaws\.com$
 (^|\.)sfx\.ms$
 (^|\.)shadowsocks\.org$
 (^|\.)slack-edge\.com$
@@ -8746,7 +8752,6 @@
 (^|\.)symauth\.com$
 (^|\.)symcb\.com$
 (^|\.)symcd\.com$
-(^|\.)g\.co$
 (^|\.)textnow\.com$
 (^|\.)thefacebook\.com$
 (^|\.)thepiratebay\.org$
@@ -8754,10 +8759,6 @@
 (^|\.)trustasiassl\.com$
 (^|\.)tumblr\.co$
 (^|\.)tumblr\.com$
-(^|\.)twitter\.com$
-(^|\.)twimg\.co$
-(^|\.)twimg\.com$
-(^|\.)twimg\.org$
 (^|\.)txmblr\.com$
 (^|\.)vimeo\.com$
 (^|\.)vine\.co$
@@ -8766,17 +8767,27 @@
 (^|\.)wikimapia\.org$
 (^|\.)wikipedia\.org$
 (^|\.)wikimedia\.org$
-(^|\.)www\.youtube-nocookie\.com$
-(^|\.)yt\.be$
-(^|\.)youtu\.be$
-(^|\.)youtube\.com$
-(^|\.)ytimg\.com$
 (^|\.)pscp\.tv$
 
-# Other
-
-# APKPURE
-(^|\.)apkpure\.com$
+# Amazon
+(^|\.)amazon\.co\.jp$
+(^|\.)amazon\.com$
+(^|\.)amazonaws\.com$
+13.32.0.0/15
+13.35.0.0/17
+18.184.0.0/15
+18.194.0.0/15
+18.208.0.0/13
+18.232.0.0/14
+52.58.0.0/15
+52.74.0.0/16
+52.77.0.0/16
+52.84.0.0/15
+52.200.0.0/13
+54.93.0.0/16
+54.156.0.0/14
+54.226.0.0/15
+54.230.156.0/22
 
 # BBC
 (^|\.)\w*uk-live\w*\.\w*$
@@ -8784,8 +8795,31 @@
 (^|\.)bbc\.com$
 
 # Discord
+(^|\.)discord\.gg$
+(^|\.)discord\.media$
 (^|\.)discordapp\.com$
 (^|\.)discordapp\.net$
+
+# Facebook
+(^|\.)facebook\.com$
+(^|\.)fb\.com$
+(^|\.)fb\.me$
+(^|\.)fbcdn\.com$
+(^|\.)fbcdn\.net$
+31.13.24.0/21
+31.13.64.0/18
+45.64.40.0/22
+66.220.144.0/20
+69.63.176.0/20
+69.171.224.0/19
+74.119.76.0/22
+103.4.96.0/22
+129.134.0.0/17
+157.240.0.0/17
+173.252.64.0/18
+179.60.192.0/22
+185.60.216.0/22
+204.15.20.0/22
 
 # Github
 (^|\.)github\.com$
@@ -8793,28 +8827,45 @@
 (^|\.)githubapp\.com$
 (^|\.)githubassets\.com$
 (^|\.)githubusercontent\.com$
-
-# Epicgames
-(^|\.)\w*epicgames\w*\.\w*$
-(^|\.)helpshift\.com$
+(^|\.)s3\.amazonaws\.com$
 
 # Google
 (^|\.)1e100\.net$
+(^|\.)2mdn\.net$
 (^|\.)app-measurement\.net$
-(^|\.)google\.cn$
+(^|\.)ggpht\.com$
 (^|\.)googleapis\.cn$
 (^|\.)googleapis\.com$
-
-# Hulu
-(^|\.)hulu\.com$
+(^|\.)googleapps\.com$
+(^|\.)googleartproject\.com$
+(^|\.)googledrive\.com$
+(^|\.)googlecode\.com$
+(^|\.)googleusercontent\.com$
+(^|\.)gstatic\.cn$
+(^|\.)gstatic\.com$
+(^|\.)g\.co$
+(^|\.)goo\.gl$
+(^|\.)gvt0\.com$
+(^|\.)gvt1\.com$
+(^|\.)gvt2\.com$
+(^|\.)gvt3\.com$
+(^|\.)xn--ngstr-lra8j\.com$
+(^|\.)xn--p8j9a0d9c9a\.xn--q9jyb4c$
+(^|\.)yt\.be$
+(^|\.)youtu\.be$
+(^|\.)youtube-nocookie\.com$
+(^|\.)youtube\.com$
+(^|\.)ytimg\.com$
+8.8.8.8
+8.8.4.4
+74.125.0.0/16
+173.194.0.0/16
 
 # Instagram
-(^|\.)\w*instagram\w*\.\w*$
 (^|\.)cdninstagram\.com$
 (^|\.)instagram\.com$
 (^|\.)instagr\.am$
 (^|\.)akamaihd\.net$
-(^|\.)d36xtkk24g8jdx\.cloudfront\.net$
 
 # Kakao Talk
 (^|\.)kakao\.com$
@@ -8822,8 +8873,8 @@
 (^|\.)kakaocdn\.net$
 1.201.0.0/24
 27.0.236.0/22
-103.246.56.0/22
 103.27.148.0/22
+103.246.56.0/22
 110.76.140.0/22
 113.61.104.0/22
 
@@ -8849,7 +8900,7 @@
 203.174.66.64/26
 203.174.77.0/24
 
-# Microsoft Onenote
+# Microsoft
 (^|\.)1drv\.com$
 (^|\.)aadrm\.com$
 (^|\.)acompli\.com$
@@ -8935,17 +8986,18 @@
 (^|\.)yammer\.com$
 (^|\.)yammerusercontent\.com$
 
-# Netflix & MytvSUPER
+# MytvSUPER
 (^|\.)\w*nowtv100\w*\.\w*$
 (^|\.)\w*rthklive\w*\.\w*$
 (^|\.)mytvsuper\.com$
+
+# Netflix
 (^|\.)netflix\.com$
 (^|\.)netflix\.net$
 (^|\.)nflxext\.com$
 (^|\.)nflximg\.com$
 (^|\.)nflximg\.net$
 (^|\.)nflxvideo\.net$
-(^|\.)tvb\.com$
 8.41.4.0/24
 23.246.0.0/18
 37.77.184.0/21
@@ -8962,14 +9014,14 @@
 207.45.72.0/22
 208.75.76.0/24
 
-# Potato Chat
-(^|\.)potato\.im$
-13.251.24.157/24
-13.251.41.203/24
-17.252.156.147/24
-17.252.157.26/24
+# Pixiv
+(^|\.)pixiv\.net$
+(^|\.)pixiv\.help$
+(^|\.)pximg\.net$
+(^|\.)pixivision\.net$
+(^|\.)pixiv\.cat$
 
-#ResiloSync
+# ResiloSync
 (^|\.)config\.getsync\.com$
 (^|\.)config\.resilio\.com$
 54.235.182.157/32
@@ -8986,7 +9038,6 @@
 (^|\.)steamstatic\.com$
 
 # Telegram
-
 (^|\.)t\.me$
 (^|\.)tg\.dev$
 (^|\.)telegra\.ph$
@@ -8999,6 +9050,7 @@
 (^|\.)comments\.app$
 (^|\.)telega\.one$
 (^|\.)telegramdownload\.com$
+(^|\.)graph\.org$
 67.198.55.0/24
 91.108.0.0/16
 91.108.0.0/18
@@ -9025,9 +9077,14 @@
 (^|\.)jtvnw\.net$
 (^|\.)akamaized\.net$
 
+# Twitter
+(^|\.)t\.co$
+(^|\.)twitter\.com$
+(^|\.)twimg\.co$
+(^|\.)twimg\.com$
+(^|\.)twimg\.org$
+
 # Whatsapp
-(^|\.)whatsapp\.com$
-(^|\.)whatsapp\.net$
 18.194.0.0/15
 34.224.0.0/12
 54.242.0.0/15
