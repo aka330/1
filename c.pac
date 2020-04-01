@@ -135,7 +135,6 @@ var proxy_host=[
 "galacg.me",
 "sjhs.ml",
 "dakashangche.*",
-"jsdelivr.net",
 "fc2.com",
 "avgle.com",
 "qooqlevideo.com",
