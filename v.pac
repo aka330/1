@@ -497,6 +497,7 @@ var proxy_host=[
 "tinypng.com",
 "zdfx.net",
 "gsmarena.com",
+"hath.network",
 
 ];
 function FindProxyForURL(url, host) {

@@ -567,6 +567,7 @@ var proxy_host=[
 "qoo-static.com",
 "netlify.com",
 "shiropro-re.net",
+"hath.network",
 
 ];
 function FindProxyForURL(url, host) {
