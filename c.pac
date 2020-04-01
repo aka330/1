@@ -135,6 +135,7 @@ var proxy_host=[
 "galacg.me",
 "sjhs.ml",
 "dakashangche.*",
+"jsdelivr.net",
 "fc2.com",
 "avgle.com",
 "qooqlevideo.com",
@@ -573,7 +574,7 @@ function FindProxyForURL(url, host) {
   for (var i = 0; i < proxy_host.length; i++) {
     var ph = proxy_host[i];
     if (ph === host || new RegExp("\\." + ph + "$").test(host)) {
-      return "SOCKS5 127.0.0.1:7890";
+      return "PROXY 127.0.0.1:7890";
     }
   }
   return "DIRECT";
