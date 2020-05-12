@@ -566,6 +566,9 @@ var proxy_host=[
 "netlify.com",
 "shiropro-re.net",
 "hath.network",
+"ssaa.best",
+"vgmdb.net",
+"vgm.io",
 
 ];
 function FindProxyForURL(url, host) {
