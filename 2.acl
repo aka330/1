@@ -8653,6 +8653,7 @@
 (^|\.)vgmdb\.net$
 (^|\.)vgm\.io$
 (^|\.)seiya-saiga\.com$
+(^|\.)hcaptcha\.com$
 
 # 国外域名
 ^.*\.hk$

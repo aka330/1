@@ -571,6 +571,7 @@ var proxy_host=[
 "ssaa.best",
 "vgmdb.net",
 "vgm.io",
+"hcaptcha.com",
 
 ];
 function FindProxyForURL(url, host) {
