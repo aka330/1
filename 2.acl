@@ -2071,6 +2071,7 @@
 (^|\.)hrtsea\.com$
 (^|\.)laomo\.me$
 (^|\.)dxy\.cn$
+(^|\.)anyant\.com$
 
 # AccelerateDirectSites
 (^|\.)12306\.com$
@@ -8651,6 +8652,7 @@
 (^|\.)services\.googleapis\.cn$
 (^|\.)vgmdb\.net$
 (^|\.)vgm\.io$
+(^|\.)seiya-saiga\.com$
 
 # 国外域名
 ^.*\.hk$
@@ -8674,6 +8676,7 @@
 (^|\.)ji-bc\.pw$
 (^|\.)dukousubscribe\.club$
 (^|\.)wangzicloud\.com$
+(^|\.)wangzi\.uk$
 (^|\.)ottosub\.xyz$
 (^|\.)yingyun\.site$
 (^|\.)yingyun\.life$
