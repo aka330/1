@@ -144,6 +144,7 @@ var proxy_host=[
 "acgnz.cc",
 "reimu.net",
 "2nyan.org",
+"2nyan.org",
 "konachan.com",
 "konachan.net",
 "vanilla-rock.com",
