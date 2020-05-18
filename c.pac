@@ -579,7 +579,7 @@ function FindProxyForURL(url, host) {
   for (var i = 0; i < proxy_host.length; i++) {
     var ph = proxy_host[i];
     if (ph === host || new RegExp("\\." + ph + "$").test(host)) {
-      return "PROXY 127.0.0.1:7890";
+      return "SOCKS5 127.0.0.1:7891";
     }
   }
   return "DIRECT";
