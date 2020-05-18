@@ -145,6 +145,7 @@ var proxy_host=[
 "reimu.net",
 "2nyan.org",
 "2dfan.com",
+"galge.fun",
 "konachan.com",
 "konachan.net",
 "vanilla-rock.com",
