@@ -1,7 +1,7 @@
 ﻿[Adblock Plus 2.0]
 ! Title: 自用广告过滤规则
-! Version: 1.0.68
-! Last modified:  2020-05-18 20:45:47
+! Version: 1.0.71
+! Last modified:  2020-06-01 14:40:31
 ! Expires: 1 days (update frequency)
 ! Homepage: https://moe168.ml/adblocklist
 ! e-mail (kyuubee32@gmail.com)
@@ -866,3 +866,5 @@ galge.fun##.leftside-bg
 @@||download.woyeahgo.tk^
 @@||www.dmhw1688.com/dmjapi/apps/getadvertisement$app=com.lxkj.dmhw
 @@||*/user/trafficlog
+@@||dmjvip.oss-cn-*.aliyuncs.com$app=com.lxkj.dmhw
+@@||bdtj.tagtic.cn/bi-sdk.1.2.1.js$script,domain=bbs.nga.cn|nga.178.com|ngacn.cc
