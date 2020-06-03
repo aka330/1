@@ -574,6 +574,8 @@ var proxy_host=[
 "vgmdb.net",
 "vgm.io",
 "hcaptcha.com",
+"furk.net",
+"f-ddl.link",
 
 ];
 function FindProxyForURL(url, host) {
