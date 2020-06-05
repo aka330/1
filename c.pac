@@ -576,6 +576,7 @@ var proxy_host=[
 "hcaptcha.com",
 "furk.net",
 "f-ddl.link",
+"pcredivewiki.tw",
 
 ];
 function FindProxyForURL(url, host) {
