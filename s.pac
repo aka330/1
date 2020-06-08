@@ -577,6 +577,7 @@ var proxy_host=[
 "furk.net",
 "f-ddl.link",
 "pcredivewiki.tw",
+"lv999max.com",
 
 ];
 function FindProxyForURL(url, host) {
