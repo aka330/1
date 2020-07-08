@@ -578,6 +578,7 @@ var proxy_host=[
 "f-ddl.link",
 "pcredivewiki.tw",
 "lv999max.com",
+"xfu.jp",
 
 ];
 function FindProxyForURL(url, host) {
