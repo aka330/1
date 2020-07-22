@@ -8661,6 +8661,9 @@
 (^|\.)pcredivewiki\.tw$
 (^|\.)lv999max\.com$
 (^|\.)xfu\.jp$
+(^|\.)vercel\.com$
+(^|\.)vercel\.app$
+(^|\.)now\.sh$
 
 # 国外域名
 ^.*\.hk$

@@ -579,6 +579,9 @@ var proxy_host=[
 "pcredivewiki.tw",
 "lv999max.com",
 "xfu.jp",
+"vercel.com",
+"vercel.app",
+"now.sh",
 
 ];
 function FindProxyForURL(url, host) {
