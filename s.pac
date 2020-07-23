@@ -582,6 +582,8 @@ var proxy_host=[
 "vercel.com",
 "vercel.app",
 "now.sh",
+"fygal.com",
+"workers.dev",
 
 ];
 function FindProxyForURL(url, host) {
