@@ -78,6 +78,7 @@ var proxy_host=[
 "imgur.com",
 "github.com",
 "github.io",
+"github.blog",
 "unpkg.com",
 "githubassets.com",
 "githubusercontent.com",

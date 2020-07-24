@@ -78,6 +78,7 @@ var proxy_host=[
 "imgur.com",
 "github.com",
 "github.io",
+"github.blog",
 "unpkg.com",
 "githubassets.com",
 "githubusercontent.com",
@@ -582,6 +583,8 @@ var proxy_host=[
 "vercel.com",
 "vercel.app",
 "now.sh",
+"fygal.com",
+"workers.dev",
 
 ];
 function FindProxyForURL(url, host) {
