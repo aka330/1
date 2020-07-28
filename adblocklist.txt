@@ -868,3 +868,4 @@ galge.fun##.leftside-bg
 @@||*/user/trafficlog
 @@||dmjvip.oss-cn-*.aliyuncs.com$app=com.lxkj.dmhw
 @@||bdtj.tagtic.cn/bi-sdk.1.2.1.js$script,domain=bbs.nga.cn|nga.178.com|ngacn.cc
+@@||pan.baidu.com/box-static/file-widget-1/sysIcon/img/Share_24_4875a10.png$xhr,domain=pan.baidu.com
