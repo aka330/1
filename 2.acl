@@ -8664,6 +8664,8 @@
 (^|\.)vercel\.com$
 (^|\.)vercel\.app$
 (^|\.)now\.sh$
+(^|\.)pttgamer\.com$
+(^|\.)xiaoxiaobujidao\.org$
 
 # 国外域名
 ^.*\.hk$

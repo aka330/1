@@ -585,6 +585,8 @@ var proxy_host=[
 "now.sh",
 "fygal.com",
 "workers.dev",
+"pttgamer.com",
+"xiaoxiaobujidao.org",
 
 ];
 function FindProxyForURL(url, host) {
