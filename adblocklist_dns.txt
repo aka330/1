@@ -1,6 +1,6 @@
 ﻿! Title: 自用广告过滤规则
-! Version: 1.0.71
-! Last modified:  2020-06-01 14:40:31
+! Version: 1.0.73
+! Last modified:  2020-10-09 05:33:35
 ! Expires: 1 days (update frequency)
 ! Homepage: https://moe168.ml/adblocklist_dns
 ! e-mail (kyuubee32@gmail.com)
@@ -598,3 +598,8 @@
 @@||dmjvip.oss-cn-*.aliyuncs.com$app=com.lxkj.dmhw
 @@||bdtj.tagtic.cn/bi-sdk.1.2.1.js$script,domain=bbs.nga.cn|nga.178.com|ngacn.cc
 @@||pan.baidu.com/box-static/file-widget-1/sysIcon/img/Share_24_4875a10.png$xhr,domain=pan.baidu.com
+@@||rtbapi.douyucdn.cn/japi/sign/app/getinfo?token^
+@@||ea.twimg.com/email/self_serve/media/logo_twitter
+@@||twitter.com/scribe^$app=com.tencent.androidqqmail
+@@||t.bilibili.com^$generichide
+@@||p.dmm.com/p/netgame/top/bnr/$domain=games.dmm.com|games.dmm.co.jp
