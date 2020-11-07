@@ -604,6 +604,7 @@ var proxy_host=[
 "wikiru.jp",
 "saikyo.biz",
 "wander.games",
+"ikegobu.net",
 
 ];
 function FindProxyForURL(url, host) {
