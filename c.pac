@@ -605,6 +605,10 @@ var proxy_host=[
 "wikiru.jp",
 "saikyo.biz",
 "wander.games",
+"chobit.cc",
+"mist-train-girls.com",
+"lost-noah.jp",
+"amzn.to",
 "ikegobu.net",
 
 ];
