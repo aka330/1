@@ -44,6 +44,7 @@ var proxy_host=[
 "gujianzhixiang.com",
 "dmm.com",
 "dmm.co.jp",
+"dmmgames.com",
 "wikiwiki.jp",
 "wikia.com",
 "wikia.org",
@@ -195,6 +196,7 @@ var proxy_host=[
 "akamaihd.net",
 "humblebundle.com",
 "sankakucomplex.com",
+"sankaku.plus",
 "javlibrary.com",
 "bandwagonhost.com",
 "gyazo.com",
@@ -609,6 +611,15 @@ var proxy_host=[
 "lost-noah.jp",
 "amzn.to",
 "ikegobu.net",
+"animecharactersdatabase.com",
+"150.95.252.130",
+"dmm-imys.com",
+"symphony-ec.jp",
+"ayarabu.com",
+"deepone-online.com",
+"orphans-order.com",
+"e-heroines.net",
+"preregistrationkit.net",
 
 ];
 function FindProxyForURL(url, host) {
