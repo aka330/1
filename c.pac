@@ -621,6 +621,7 @@ var proxy_host=[
 "orphans-order.com",
 "e-heroines.net",
 "preregistrationkit.net",
+"zucks.net",
 
 ];
 function FindProxyForURL(url, host) {
