@@ -212,6 +212,7 @@ var proxy_host=[
 "telegram.space",
 "telesco.pe",
 "tdesktop.com",
+"telesco.pe",
 "t.me",
 "g.co",
 "freeweibo.com",
@@ -279,6 +280,11 @@ var proxy_host=[
 "oload.download",
 ".*oloadcdn.net/*.*",
 "*discordapp.*",
+"discord.com",
+"discord.gg",
+"discord.media",
+"discordapp.com",
+"discordapp.net",
 "mm-cg.com",
 "code.getmdl.io",
 "soundcloud.com",
@@ -603,7 +609,6 @@ var proxy_host=[
 "azurefd.net",
 "azureedge.net",
 "jquery.com",
-"erogamescape.dyndns.org",
 "wikiru.jp",
 "saikyo.biz",
 "wander.games",
@@ -621,14 +626,24 @@ var proxy_host=[
 "orphans-order.com",
 "e-heroines.net",
 "preregistrationkit.net",
+"eukleia.co.jp",
 "zucks.net",
+"newsindi.com",
+"flower-knight-girls.co.jp",
+"bootstrapcdn.com",
+"anilist.co",
+"anime-sharing.com",
+"minglong.org",
+"tokyotosho.info",
+"fruful.jp",
+"loli.ski",
 
 ];
 function FindProxyForURL(url, host) {
   for (var i = 0; i < proxy_host.length; i++) {
     var ph = proxy_host[i];
     if (ph === host || new RegExp("\\." + ph + "$").test(host)) {
-      return "SOCKS5 127.0.0.1:7891";
+      return "SOCKS5 127.0.0.1:7890";
     }
   }
   return "DIRECT";
