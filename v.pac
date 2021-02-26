@@ -637,6 +637,7 @@ var proxy_host=[
 "tokyotosho.info",
 "fruful.jp",
 "loli.ski",
+"cdn.akamai.steamstatic.com",
 
 ];
 function FindProxyForURL(url, host) {
