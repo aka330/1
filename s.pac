@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var proxy_host=[
 "203.104.209.7",
 "203.104.209.71",    //1.横須賀鎮守府
@@ -1301,5 +1300,4 @@ function FindProxyForURL(url, host) {
     }
   }
   return "DIRECT";
->>>>>>> e9841d7218d188f59affba2c2f0eb127f55473c7
 }
