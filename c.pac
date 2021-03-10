@@ -579,6 +579,7 @@ var proxy_host=[
 "qoo-app.com",
 "qoo-static.com",
 "netlify.com",
+"netlify.app",
 "shiropro-re.net",
 "hath.network",
 "ssaa.best",
