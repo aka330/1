@@ -640,6 +640,15 @@ var proxy_host=[
 "loli.ski",
 "cdn.akamai.steamstatic.com",
 "erocool.me",
+"mspcdn1.xyz",
+"mspcdn2.xyz",
+"mspcdn3.xyz",
+"mspcdn4.xyz",
+"mspcdn5.xyz",
+"mspcdn6.xyz",
+"mspcdn7.xyz",
+"mspcdn8.xyz",
+"mspcdn9.xyz",
 
 ];
 function FindProxyForURL(url, host) {
