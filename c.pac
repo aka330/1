@@ -639,6 +639,7 @@ var proxy_host=[
 "fruful.jp",
 "loli.ski",
 "cdn.akamai.steamstatic.com",
+"erocool.me",
 
 ];
 function FindProxyForURL(url, host) {
