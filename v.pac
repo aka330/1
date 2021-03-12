@@ -649,6 +649,8 @@ var proxy_host=[
 "mspcdn7.xyz",
 "mspcdn8.xyz",
 "mspcdn9.xyz",
+"aspcdn.xyz",
+"jspcdn.xyz",
 
 ];
 function FindProxyForURL(url, host) {
