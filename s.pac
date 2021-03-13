@@ -397,7 +397,6 @@ var proxy_host=[
 "oms.cdnbye.com",
 "cron-job.org",
 "ezgif.com",
-"loli.net",
 "ssrtool.com",
 "adguard.com",
 "flickr.com",
