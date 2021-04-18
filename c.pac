@@ -651,6 +651,7 @@ var proxy_host=[
 "aspcdn.xyz",
 "jspcdn.xyz",
 "joycdn.xyz",
+"vikacg.com",
 
 ];
 function FindProxyForURL(url, host) {
