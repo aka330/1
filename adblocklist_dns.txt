@@ -1,8 +1,9 @@
-﻿! Title: 自用广告过滤规则
-! Version: 1.0.74
-! Last modified:  2020-12-22 11:06:08
+﻿[Adblock Plus 2.0]
+! Title: 自用广告过滤规则
+! Version: 1.0.8
+! Last modified:  2021-05-22 20:44:45
 ! Expires: 1 days (update frequency)
-! Homepage: https://moe168.ml/adblocklist_dns
+! Homepage: https://aka32.netlify.app/p/adblocklist.txt
 ! e-mail (kyuubee32@gmail.com)
 !-------------------------------!
 ! Blacklist

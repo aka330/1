@@ -656,13 +656,16 @@ var proxy_host=[
 "api-priconne-redive.cygames.jp",
 "gsspat.jp",
 "createjs.com",
+"geminionline.net",
+"tapad.com",
+"azurewebsites.net",
 
 ];
 function FindProxyForURL(url, host) {
   for (var i = 0; i < proxy_host.length; i++) {
     var ph = proxy_host[i];
     if (ph === host || new RegExp("\\." + ph + "$").test(host)) {
-      return "SOCKS5 127.0.0.1:1085";
+      return "SOCKS5 127.0.0.1:11223";
     }
   }
   return "DIRECT";

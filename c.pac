@@ -652,7 +652,13 @@ var proxy_host=[
 "jspcdn.xyz",
 "joycdn.xyz",
 "vikacg.com",
+"cygames.jp",
 "api-priconne-redive.cygames.jp",
+"gsspat.jp",
+"createjs.com",
+"geminionline.net",
+"tapad.com",
+"azurewebsites.net",
 
 ];
 function FindProxyForURL(url, host) {

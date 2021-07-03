@@ -1,11 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: 百度过滤规则
-! Version: 1.0.4
-! Last modified:  2020-01-06 02:15:26
+! Version: 1.0.9
+! Last modified:  2021-05-22 21:03:19
 ! Expires: 1 days (update frequency)
-! Homepage: https://moe168.ml/adblocklist
+! Homepage: https://aka32.netlify.app/p/adblocklist_baidu.txt
 ! e-mail (kyuubee32@gmail.com)
 !-------------------------------!
 baidu.com#$##header{height: 702px;}
 baidu.com#$#.se-page-hd-content{background-color: rgb(204, 232, 207);}
 baidu.com###header > div:nth-child(7)
+baidu.com#$##logo{position: relative;top: 50px;}
+baidu.com#$#form#index-form.se-form{position: relative;top: 50px;}
